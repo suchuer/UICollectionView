@@ -13,6 +13,8 @@
 		164BA133264782150048026D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 164BA131264782150048026D /* Main.storyboard */; };
 		164BA135264782170048026D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 164BA134264782170048026D /* Assets.xcassets */; };
 		164BA138264782170048026D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 164BA136264782170048026D /* LaunchScreen.storyboard */; };
+		164BA140264792E40048026D /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164BA13F264792E40048026D /* MyCollectionViewCell.swift */; };
+		164BA1442647BAD90048026D /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164BA1432647BAD90048026D /* MyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		164BA134264782170048026D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		164BA137264782170048026D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		164BA139264782170048026D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		164BA13F264792E40048026D /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		164BA1432647BAD90048026D /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				164BA134264782170048026D /* Assets.xcassets */,
 				164BA136264782170048026D /* LaunchScreen.storyboard */,
 				164BA139264782170048026D /* Info.plist */,
+				164BA13F264792E40048026D /* MyCollectionViewCell.swift */,
+				164BA1432647BAD90048026D /* MyViewController.swift */,
 			);
 			path = UICollectionView;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			files = (
 				164BA130264782150048026D /* ViewController.swift in Sources */,
 				164BA12C264782150048026D /* AppDelegate.swift in Sources */,
+				164BA140264792E40048026D /* MyCollectionViewCell.swift in Sources */,
+				164BA1442647BAD90048026D /* MyViewController.swift in Sources */,
 				164BA12E264782150048026D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
