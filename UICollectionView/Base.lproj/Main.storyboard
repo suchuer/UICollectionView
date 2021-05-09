@@ -106,6 +106,14 @@
                                     <constraint firstAttribute="width" secondItem="1cK-Ka-awO" secondAttribute="height" multiplier="1:1" id="xEd-eg-lct"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="swn-Un-WBG">
+                                <rect key="frame" x="26" y="93" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="back"/>
+                                <connections>
+                                    <action selector="back:" destination="0ft-QQ-DNn" eventType="touchUpInside" id="7c6-iA-Qas"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="irb-Lh-dIo"/>
                         <color key="backgroundColor" systemColor="systemPurpleColor"/>

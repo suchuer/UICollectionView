@@ -102,6 +102,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         let storyBoard = UIStoryboard.init(name: "Main", bundle: nil)
         let nextVC = storyBoard.instantiateViewController(identifier:  "myImageVC") as? MyViewController
         
+        nextVC?.modalPresentationStyle = .fullScreen
         if let nextVC = nextVC{
             self.present(nextVC, animated: true, completion: nil)
         }
